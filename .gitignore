@@ -1,3 +1,3 @@
 #hide bazel files
-*/bazel-*
-*/MODULE.bazel*
+bazel-*
+MODULE.bazel*
