@@ -1,0 +1,20 @@
+g++ -pipe -O2 -std=c++14 <filename> -lm
+
+=============================================
+alex@ubun:~/Documents/learning/Coursera/DataStructuresAndAlgorithms/module1$ g++ -pipe -O2 -std=c++14 APlusB.cpp -lm
+alex@ubun:~/Documents/learning/Coursera/DataStructuresAndAlgorithms/module1$ ls
+a.out  APlusB.cpp  notes.txt
+alex@ubun:~/Documents/learning/Coursera/DataStructuresAndAlgorithms/module1$ ./a.out 
+1 2
+3
+
+=============================================
+alex@ubun:~/Documents/learning/Coursera/DataStructuresAndAlgorithms/module1$ bazel build //:all
+INFO: Analyzed 2 targets (0 packages loaded, 0 targets configured).
+INFO: Found 2 targets...
+INFO: Elapsed time: 0.627s, Critical Path: 0.51s
+INFO: 3 processes: 1 internal, 2 processwrapper-sandbox.
+INFO: Build completed successfully, 3 total actions
+alex@ubun:~/Documents/learning/Coursera/DataStructuresAndAlgorithms/module1$ ./bazel-bin/max_pairwise_product
+4 1 2 3 4
+12
