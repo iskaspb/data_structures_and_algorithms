@@ -1,0 +1,10 @@
+See task description:
+https://www.dropbox.com/scl/fi/tgra0u4k0iiy1py/01_introduction_problems.pdf?rlkey=ko4rro6fh6ter63wvd0dougvv&e=2&dl=0
+
+or locally here ./introduction_problems.pdf
+
+See other solutions here:
+
+https://gist.github.com/chrswt/ea93303a038a0cc75e17fb6cdeacfeb4
+
+https://github.com/TSG405/Algorithmic-Toolbox-UC-San-Diego/blob/main/Course-Work/week_2/Fibonacci%20Number%20Again.py
